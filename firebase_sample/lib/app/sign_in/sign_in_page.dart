@@ -7,6 +7,7 @@ class SignInPage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Time Tracker'),
       ),
+      body: Container(),
     );
   }
 }
