@@ -5,7 +5,7 @@ class MainPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Practice App'),
+        title: Text('Training App'),
       ),
       body: Container(),
     );
