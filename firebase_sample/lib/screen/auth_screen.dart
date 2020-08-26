@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class MainPage extends StatelessWidget {
+class AuthScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Shopping App'),
+        title: Text('Auth Screen'),
       ),
       body: Container(),
     );

@@ -1,4 +1,4 @@
-import 'package:firebase_sample/main_page.dart';
+import 'package:firebase_sample/screen/auth_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.indigo,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MainPage(),
+      home: AuthScreen(),
     );
   }
 }
