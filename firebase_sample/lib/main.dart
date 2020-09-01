@@ -1,4 +1,4 @@
-import 'package:firebase_sample/screen/auth_screen.dart';
+import 'package:firebase_sample/screens/add_palce_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,12 +10,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Camera App',
+      title: 'Great Place',
       theme: ThemeData(
         primarySwatch: Colors.indigo,
+        accentColor: Colors.amber,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: AuthScreen(),
+      home: PlacesListScreen(),
     );
   }
 }

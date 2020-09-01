@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 
-class AuthScreen extends StatelessWidget {
+class PlacesListScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Auth Screen'),
+        title: Text('Your Places'),
       ),
-      body: Container(),
     );
   }
 }
