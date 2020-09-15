@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/foundation.dart';
+import 'package:firebase_sample/models/place.dart';
 
-class GreatPlaces extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Center(
-      child: Text('test'),
-    );
-  }
+class GreatPlaces with ChangeNotifier {
+  List<Place>
 }
